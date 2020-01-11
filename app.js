@@ -3,6 +3,8 @@ const fs = require('fs');
 const XlsxPopulate = require('xlsx-populate');
 
 
+let pdfData;
+
 function parsePDF() {
     fs.readFile('./para01.pdf', function(err, buffer) {
         if (err) return console.log(err);
@@ -10,7 +12,7 @@ function parsePDF() {
         pdf2table.parse(buffer, function (err, rows, rowsdebug) {
             if (err) return console.log(err);
 
-            console.log(rows);
+            console.log(rows); 
         })
     });
 }
