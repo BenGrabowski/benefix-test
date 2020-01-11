@@ -1,0 +1,16 @@
+{
+  "name": "benefix-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pdf2json": "^1.1.8",
+    "pdf2table": "0.0.2",
+    "xlsx-populate": "^1.20.1"
+  }
+}
